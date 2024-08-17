@@ -1,68 +1,6 @@
 users = {'ARYAN': 'ARYAN', 'ARYAN': 'ARYAN', 'ARYAN': 'ARYAN'}  
   
-def login():  
-    username = input("Enter your username: ")  
-    password = input("Enter your password: ")  
-  
-    if username in users and users[username] == password:  
-        print("Login successful!")  
-    else:  
-        print("Invalid username or password. Please try again.")  
-        
-from platform import system
-import sys
-import os
-import datetime   
-from time import sleep
-def testPY():
-    if(sys.version_info[0] < 3):
-        print ('\n\t [+] You have Python 2, Please Clear Data Termux And Reinstall Python ... \n')
-        sys.exit()
-
-
-def modelsInstaller():
-    try:
-        models = ['requests', 'colorama']
-        for model in models:
-            try:
-                if(sys.version_info[0] < 3):
-                    os.system('cd C:\Python27\Scripts & pip install {}'.format(model))
-                else:
-                    os.system('python -m pip install {}'.format(model))
-                print(' ')
-                print('[+] {} has been installed successfully, Restart the program.'.format(model))
-                sys.exit()
-                print(' ')
-            except:
-                print('[-] Install {} manually.'.format(model))
-                print(' ')
-    except:
-        pass
-
-
-import base64
-import json
-import time
-import sys
-import os
-import re
-import binascii
-import time
-import json
-import random
-import threading
-import pprint
-import smtplib
-import telnetlib
-import os.path
-import hashlib
-import string
-import glob
-import sqlite3
-import urllib
-import argparse
-import marshal
-import datetime   
+def
 from platform import system
 from datetime import datetime
 
